@@ -29,12 +29,14 @@ h1, h2 {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .meta {
     font-size: 0.6em;
     color: white;
     line-height: 0.4em;
+    color: white;
 }
 
 ul.icons {
