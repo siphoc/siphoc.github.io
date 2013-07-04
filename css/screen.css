@@ -1,6 +1,6 @@
-@font-face { font-family: DistrictProThin; src: url('DistrictProThin.otf'); }
-@font-face { font-family: SocialFoundIcon; src: url('social_foundicons.ttf'); }
-@font-face { font-family: GeneralFoundIcon; src: url('general_foundicons.ttf'); }
+@font-face { font-family: DistrictProThin; src: url('../fonts/DistrictProThin.otf'); }
+@font-face { font-family: SocialFoundIcon; src: url('../fonts/social_foundicons.ttf'); }
+@font-face { font-family: GeneralFoundIcon; src: url('../fonts/general_foundicons.ttf'); }
 
 body {
     background-color: #20b473;
