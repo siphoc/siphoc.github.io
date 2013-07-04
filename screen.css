@@ -1,0 +1,71 @@
+@font-face { font-family: DistrictProThin; src: url('DistrictProThin.otf'); }
+@font-face { font-family: SocialFoundIcon; src: url('social_foundicons.ttf'); }
+@font-face { font-family: GeneralFoundIcon; src: url('general_foundicons.ttf'); }
+
+body {
+    background-color: #20b473;
+    color: #efad43;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+    font-family: DistrictProThin, arial;
+}
+
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 500px;
+    height: 440px;
+    top: 50%;
+    margin-top: -220px;
+    left: 50%;
+    margin-left: -250px;
+    text-align: center;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+.meta {
+    font-size: 0.6em;
+    color: white;
+    line-height: 0.4em;
+}
+
+ul.icons {
+    margin-top: 35px;
+    padding: 0;
+}
+
+ul.icons li{
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
+}
+
+.social {
+    font-family: SocialFoundIcon;
+    color: white;
+}
+
+.general {
+    font-family: GeneralFoundIcon;
+    color: white;
+}
+
+.foundicon-twitter:before {
+    content: "\f004";
+}
+
+.foundicon-github:before {
+    content: "\f006";
+}
+
+.foundicon-mail:before {
+    content: "\f007";
+}
