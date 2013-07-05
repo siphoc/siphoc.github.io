@@ -71,3 +71,7 @@ ul.icons li{
 .foundicon-mail:before {
     content: "\f007";
 }
+
+.foundicon-resume:before {
+    content: "\f00a";
+}
